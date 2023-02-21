@@ -1,0 +1,9 @@
+mapu var/www/html/ParcijalniIspit samo postavio kao root mapu kroz sudo nano /etc/apache2/sites-available/000-default.conf komoandu
+U nano sam promjenio DocumentRoot u var/www/html/App u var/www/html/ParcijalniIspi
+U mapi san inicirao GIT kroz sudo chown -R $USER:$USER i sudo chmod -R 755
+Sljedeci komanda je git init gdje sam dodao svoj username i email
+Napravio sam repozitorij na git.hub zvan Ispit 
+Upisao git remote add origin git@github.com:jokicroko/Ispit.git
+Instalirao paket
+Napravio git.ignore mapu i u nano dodao /vendor
+Napravio commit i git pushao na udaljeni repozitorij
